@@ -4,11 +4,13 @@
         {
             title: "Charging Point",
             text: "The charging point is where you connect your earbuds to their charging case. It's essential for recharging your earbuds and keeping them powered up. Make sure to align your earbuds correctly with the charging points to ensure a proper connection.",
+       
           },
       
       {
         title: "Ear Tip",
         text: "The ear tip is the part of the earbud that comes into direct contact with your ear canal. It plays a significant role in comfort and sound quality. Different ear tip sizes and materials can affect the fit and noise isolation, ensuring a personalized listening experience.",
+        
       },
       {
         title: "Battery",
@@ -33,10 +35,12 @@
       hotspotData.forEach((data, index) => {
         const hotspotTitle = document.getElementById(`hotspot-title-${index + 1}`);
         const hotspotText = document.getElementById(`hotspot-text-${index + 1}`);
+    
   
         if (hotspotTitle && hotspotText) {
           hotspotTitle.textContent = data.title;
           hotspotText.textContent = data.text;
+  
         }
       });
     }
