@@ -11,7 +11,7 @@ model-viewer {
   border: 0px;
   width: 45px;
   height: 38px;
- 
+ display: block;
   transition: all 1s ease-in-out;
 }
 
@@ -21,8 +21,8 @@ model-viewer {
 }
 
 .HotspotAnnotation {
-
-  background: #fff;
+ visibility: hidden;
+  background: #ffffff;
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
   color: rgba(0, 0, 0, 0.8);
