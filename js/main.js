@@ -1,29 +1,30 @@
 (() => {
     // Data for hotspot content
     const hotspotData = [
+        {
+            title: "Charging Point",
+            text: "The charging point is where you connect your earbuds to their charging case. It's essential for recharging your earbuds and keeping them powered up. Make sure to align your earbuds correctly with the charging points to ensure a proper connection.",
+          },
+      
       {
         title: "Ear Tip",
-        text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe, error.",
-      },
-      {
-        title: "Charging Points",
-        text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe, error.",
+        text: "The ear tip is the part of the earbud that comes into direct contact with your ear canal. It plays a significant role in comfort and sound quality. Different ear tip sizes and materials can affect the fit and noise isolation, ensuring a personalized listening experience.",
       },
       {
         title: "Battery",
-        text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe, error.",
+        text: "The battery is the powerhouse of your earbuds, providing you with hours of uninterrupted music playback or talk time. It's a crucial component that determines how long you can use your earbuds before needing to recharge them.",
       },
       {
-        title: "Active Noise Cancellation",
-        text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe, error.",
+        title: "Noise Cancellation",
+        text: "Noise cancellation technology is a game-changer in the world of earbuds. It actively reduces or eliminates ambient noise, allowing you to immerse yourself fully in your audio without distractions. Explore the noise cancellation feature for a quieter, more focused experience.",
       },
       {
-        title: "Multi Function Button",
-        text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe, error.",
+        title: "One-Tap Controls",
+        text: "Many modern earbuds feature one-tap controls that allow you to pause/play music, skip tracks, answer calls, or activate voice assistants with a simple tap on the earbud's surface. Familiarize yourself with these controls for a seamless user experience.",
       },
       {
         title: "Speaker",
-        text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe, error.",
+        text: "The speaker is the heart of your earbuds, responsible for delivering crystal-clear audio. It's essential to understand the quality and capabilities of the speaker for a rich and immersive sound experience. Look for features like high-quality drivers and balanced sound profiles.",
       },
     ];
   

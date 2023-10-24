@@ -40,6 +40,9 @@ model-viewer {
   text-align: left;
 }
 
+.Hotspot:hover .HotspotAnnotation {
+  display: block;
+}
 .HotspotAnnotation p {
   color: #333;
   line-height: 22px;
