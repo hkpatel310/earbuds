@@ -48,6 +48,10 @@ model-viewer {
   line-height: 22px;
   font-weight: 300;
 }
+.HotspotAnnotation img {
+  height: 130px;
+  width: 130px;
+}
 
 .HotspotAnnotation h2 {
   font-size: 18px;
